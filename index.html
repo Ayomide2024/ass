@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="download-removebg-preview.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="body">
+        <!-- navbar section -->
+    <nav class="bg-gray-800 p-1 w-full fixed">
+        <div  class="container mx-auto flex justify-between items-center">
+        <div class="text-3xl text-gray-400 font-bold">
+            <img src="download-removebg-preview.png" alt="" class="w-16">
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="text-white hover:text-white hover:bg-blue-500 p-2 hover:rounded-xl">Home</a>
+          <a href="index2.html" class="text-white hover:text-white hover:bg-blue-500 p-2 hover:rounded-xl">About</a>
+          <a href="index3.html" class="text-white hover:text-white hover:bg-blue-500 p-2 hover:rounded-xl">Services</a>
+        </div>
+        <div class="md:hidden">
+          <button class="text-white focus:outline-none">
+            <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoion="round" stroke-width="2" d="M4 6h16M4 1216m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+            </div>
+            <div class="mobile-menu hidden text-center">
+          <a href="#home" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">Home</a>
+          <a href="#about" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">About</a>
+          <a href="#services" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">Services</a>
+          <a href="" class="text-white hover:text-white hover:bg-blue-500 hover:p-2 hover:rounded-xl py-1 px-2 block">Contact</a>
+            </div>
+      </nav>
+
+      <!-- hero section -->
+      <section class="my-15 bg-gray-200" id="home">
+        <div class="container max-w-7xl mx-auto px-4 lg:px-2 sm:px-10 lg:py-[100px]">
+          <div class="text-center md:flex justify-between items-center h-100vh">
+          <div class="gap-7 py-16">
+            <h1 class="text-4xl mb-[40px] md:text-5xl mb-[40px] lg:text-7xl text-gray-500 mb-[40px] font-bold">Help your child<br><span class="text-4xl md:text-5xl lg:text-7xl text-green-300 font-bold"> and help yourself</span></h1>
+            <p class="text-gray-500 font-bold mb-[30px]">Help your child be useful for u in the future</p>
+            <button class="bg-green-500 text-white p-4 rounded-xl hover:bg-green-300">Learn more</button>
+          </div>
+          <div class="image ">
+            <img src="protecting the environment-rafiki.svg" alt="" class="hidden lg:h-80 lg:w-[500px]  md:w-80   object-contain lg-h-[500px] md:block">
+          </div>
+        </div>
+      </div>
+      </section>
+   </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/042748c20e.js" crossorigin="anonymous"></script>
+</body>
+</html>
